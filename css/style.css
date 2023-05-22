@@ -1190,6 +1190,14 @@ main {
     #contact {
         padding: 50px 10px;
     }
+
+    #contact .contact-row .contact-left .icon-box .info p {
+        color: var(--textColor);
+        font-size: 13px;
+        font-weight: 400;
+        text-decoration: 1.5px overline var(--themeColor);
+    }
+    
 }
 
 
