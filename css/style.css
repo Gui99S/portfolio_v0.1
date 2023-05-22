@@ -46,6 +46,12 @@ header .profile img {
     height: 150px;
     border-radius: 50%;
     border: 4px solid var(--themeColor);
+    user-select: none;
+    transition: 0.5s ease-in;
+}
+
+header .profile img:hover {
+    border: 4px solid #898cc5;
 }
 
 header .profile h1 {
@@ -405,6 +411,13 @@ main {
     width: 100%;
     box-shadow: 10px 8px var(--themeColor);
     border-radius: 8px;
+    user-select: none;
+    transition: 0.5s ease;
+}
+
+#about .about-col .img-col img:hover {
+    box-shadow: 10px 8px #898cc5;
+    transform: translateY(-10px);
 }
 
 #about .about-col .info-col {
@@ -425,9 +438,17 @@ main {
     letter-spacing: 0.5px;
 }
 
+#about .about-col .info-col h3 {
+    color: var(--titleColor);
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+}
+
 #about .about-col .info-col .icon-list-col {
     display: flex;
-    margin-top: 20px;
+    margin-top: 0;
     gap: 40px;
 }
 
@@ -445,11 +466,6 @@ main {
     letter-spacing: 0.8px;
     font-size: 15px;
     margin-right: 2px;
-}
-
-.icon-list ul li span {
-    font-weight: 500;
-    font-size: 13.5px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -492,13 +508,7 @@ main {
     }
 
     #about .about-col .info-col .icon-list-col .icon-list ul li strong {
-        font-weight: 500;
         margin-right: 0px;
-    }
-
-    #about .about-col .info-col .icon-list-col .icon-list ul li span {
-        font-weight: 400;
-        font-size: 14px;
     }
 }
 
@@ -576,6 +586,11 @@ main {
     font-weight: 600;
     font-size: 20px;
     margin: 6px 0;
+    transition: 0.5s ease;
+}
+
+#education .education-row .education-cols .education-info:hover .education-subtitle {
+    color: var(--themeColor);
 }
 
 #education .education-row .education-cols .education-info .education-period {
@@ -880,12 +895,14 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    user-select: none;
     border-radius: 12px 12px 0 0;
 }
 
 #portfolio .slide-container .slide-content .card-wrapper .port-card .card-image .card-img-wip {
     height: 100%;
     width: 100%;
+    user-select: none;
     border-radius: 12px 12px 0 0;
 }
 
