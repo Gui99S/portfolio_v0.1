@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon_io/favicon.ico">
+</head>
+<body>
+
+    <header>
+
+        <div class="profile">
+            <img src="img/img0.png" alt="" width="150px">
+            <h1>Guilherme Santos</h1>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/guilherme-s-da-silva/" target="_blank" id="linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/Gui99S" target="_blank" id="github"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/gui99ss/" target="_blank" id="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" class="active" id="navLinks"><i class="fas fa-home"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#about" id="navLinks"><i class="fas fa-user"></i>About Me</a>
+                </li>
+                <li>
+                    <a href="#education" id="navLinks"><i class="fas fa-book"></i>Education</a>
+                </li>
+                <li>
+                    <a href="#skill" id="navLinks"><i class="fas fa-briefcase"></i>Skills</a>
+                </li>
+                <li>
+                    <a href="#portfolio" id="navLinks"><i class="fas fa-laptop" id="laptop"></i>Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" id="navLinks"><i class="fas fa-envelope"></i>Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="footer">
+            <p>© 05/2023 - Guilherme Santos</p>
+        </div>
+    </header>
+
+        <i class="fas fa-bars" id="menuBtn"></i>
+
+    <main>
+
+        <section id="home">
+            <div class="home-row">
+                <h1>Hello, I'm <br>Guilherme Santos<span>.</span></h1>
+                <p>I'm a <span class="auto-input"></span></p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="sub-heading">About Me</h1>
+            <div class="divider" style="width: 114px; margin-bottom: 10px;"></div>
+            <div class="about-info">
+                <p>Hello! My name is Guilherme, and I'm a 24 y/o IT student based in Porto Alegre, Brazil. I'm currently available for freelance opportunities.</p>
+                <br>
+                <p>I'm a diligent student with a keen eye for detail. In my spare time, I enjoy reading, gaming, hanging out with friends, watching shows and movies, building stuff with code and studying new technologies related to programming. My goal is to become a successful Front-End Developer.</p>
+                
+                <div class="about-col">
+                    <div class="img-col">
+                        <img src="img/img1.png" alt="">
+                    </div>
+                    
+                    <div class="info-col">
+                        <h2>Why Front-End?</h2>
+                        <p class="sub-paragraph">I've been drawn to creative fields for as long as I can remember. My childhood interest eventually moved on from pen and paper to the computer screen, where I dabbled on basic HTML and pixel art during my teenage years.</p>
+                        <p class="sub-paragraph">Near the end of 2021, I dove headfirst into what interested me and enrolled into an IT course. As of 2023, I realized my oldest hobby had already evolved into passion for web development.</p>
+                        <div class="icon-list-col">
+                            <!-- left -->
+                            <div class="icon-list">
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> <strong>Favorite Books:</strong> <span>A Song of Ice and Fire, The Witcher, Percy Jackson & the Olympians </span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> <strong>Favorite Shows:</strong> <span>Breaking Bad, The Office, Dark, True Detective</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> <strong>Favorite Movies:</strong> <span>Interstellar, The Lord of the Rings, It, 1917</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- right -->
+                        <div class="icon-list">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-angle-right"></i> <strong>Favorite Animes:</strong> <span>Chainsaw Man, Demon Slayer, Attack on Titan, Vinland Saga</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i> <strong>Favorite Mangas:</strong> <span>Berserk, Vagabond, One Piece, Oyasumi Punpun</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i> <strong>Favorite Games:</strong> <span>Elden Ring, Red Dead Redemption 2, The Witcher 3, Genshin Impact, Honkai Star Rail </span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="education">
+            <h1 class="sub-heading" style="color: #1E2025;">Education</h1>
+            <div class="divider" style="width: 120px;"></div>
+
+            <div class="education-row">
+                <!-- left -->
+                <div class="education-cols">
+                    <div class="education-info">
+                        <h4 class="education-subtitle">
+                            Colégio Santa Dorotéia
+                        </h4>
+                        <div class="education-period">
+                            2007 - 2016
+                        </div>
+                        <div class="education-subparagraph">
+                            A prestigious private school that I attended from elementary to high school after earning a partial scholarship.
+                        </div>
+                    </div>
+                    <div class="education-info">
+                        <h4 class="education-subtitle">
+                            Quatrum English Schools
+                        </h4>
+                        <div class="education-period">
+                            2011 - 2015
+                        </div>
+                        <div class="education-subparagraph">
+                            At this secondary school I earned my CEFR certificate with outstanding performance.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right -->
+                <div class="education-cols">
+                    <div class="education-info">
+                        <h4 class="education-subtitle">
+                            UniRitter
+                        </h4>
+                        <div class="education-period">
+                            2018 - 2019    
+                        </div>
+                        <div class="education-subparagraph">
+                            Took a semester in the Game Design course after earning a scholarship. Gradually found myself disinterested in everything but the programming, which deepened my understanding in the field.
+                        </div>
+                    </div>
+                    <div class="education-info">
+                        <h4 class="education-subtitle">
+                            QI College & Technical School
+                        </h4>
+                        <div class="education-period">
+                            2022 - 2023
+                        </div>
+                        <div class="education-subparagraph">
+                            I'm currently in my last year in a technical IT course and will be graduating soon.
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section id="skill">
+
+            <h1 class="sub-heading" style="color: #1E2025;">Skills & Tools</h1>
+            <div class="divider" style="width: 149px;"></div>
+            <p class="sub-paragraph">Although I lack experience, I'm a fast learner who excels in problem solving and coming up with creative solutions. And most importantly, I always strive to improve and expand my skill set:</p>
+            
+            <div class="skill-row">
+                
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-html5" id="html"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>HTML</h4>
+                        </div>    
+                    </div>
+    
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-css3-alt" id="css"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>CSS</h4>
+                        </div>    
+                    </div>
+    
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-js" id="js"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>JavaScript</h4>
+                        </div>    
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-php" id="php"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>PHP</h4>
+                        </div>    
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fas fa-k" id="kotlin">K</i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Kotlin</h4>
+                        </div>    
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-git-alt" id="git"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Git</h4>
+                        </div>    
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-github" id="github"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Github</h4>
+                        </div>    
+                    </div>
+
+                    <div class="last-container">
+                        <div class="skill-item">
+                            <div class="icon">
+                                <i class="fab fa-bootstrap" id="bootstrap"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Bootstrap</h4>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-react" id="react"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>React <span id="asterisk">*</span></h4>
+                        </div>    
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="icon">
+                            <i class="fab fa-sass" id="sass"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>SASS <span id="asterisk">*</span></h4>
+                        </div>    
+                    </div>
+
+    
+            </div>
+            <p class="sub-paragraph"><span id="asterisk">*</span> = Currently studying</p>
+
+            <h1 class="sub-heading" style="color: #1E2025; padding-top: 30px;">Languages</h1>
+            <div class="divider" style="width: 133px;"></div>
+            <p class="sub-paragraph">I have great aptitude for the following languages:</p>
+
+            <div class="language-row">
+
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>Portuguese</h2>
+                        <h2>100%</h2>
+                    </div>
+                    <div class="skill-outer-line">
+                        <div class="skill-inner-line" style="width: 100%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>English</h2>
+                        <h2>99%</h2>
+                    </div>
+                    <div class="skill-outer-line">
+                        <div class="skill-inner-line" style="width: 99%;"></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section id="portfolio">
+
+            <h1 class="sub-heading">Portfolio</h1>
+            <div class="divider" style="width: 97px;"></div>
+            <p class="sub-paragraph" style="color: #F1FAEE;">Here's my project stash.</p>
+
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+    
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj0.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h4 class="port-item-title">My Portfolio</h4>
+                                    
+                                <ul>
+                                    <li class="tag_html">#HTML</li>
+                                    <li class="tag_css">#CSS</li>
+                                    <li class="tag_js">#JavaScript</li>
+                                </ul>
+                                <p class="description">The site you're currently on.</p>
+                                <div class="port-links">
+                                    <a href="#" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="#" class="linkedin" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h4 class="port-item-title">Law Firm</h4>
+                                    
+                                <ul>
+                                    <li class="tag_html">#HTML</li>
+                                    <li class="tag_css">#CSS</li>
+                                    <li class="tag_js">#JavaScript</li>
+                                </ul>
+                                <p class="description">Responsive design using features from Bootstrap and SwiperJS.</p>
+                                <div class="port-links">
+                                    <a href="https://github.com/Gui99S/law-firm-v0.0.1" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/law-firm-v0.0.1/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj4.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">Solar System</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                    </ul>
+                                    <p class="description">Project built while studying CSS animation.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/solar_system" target="_blank" rel="noopener" class="github"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/solar_system/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+    
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj5.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">Discord Clone</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">Project made to copy a discord chatroom.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/discord_clone" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/discord_clone/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+                       
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj6.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">HOTD fan website</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">A fan website of HBO's House of the Dragon, built during a study session of sliders.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/fanwebsite_HOTD" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/fanwebsite_HOTD/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj7.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">Weather Forecast</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">Built during a study session of APIs, in this project I used OpenWeatherMapAPI.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/openweatherAPI" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/openweatherAPI/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj8.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">Password Generator</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">A generator capable of creating randomized passwords according to the users preferences.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/password_generator" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/password_generator/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj2.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">Snake Mini-Game</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">One of my first projects, built while studying JavaScript.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/snake_game" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/snake_game/" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/proj3.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">PokeDex</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">My first project using an API.</p>
+                                    <div class="port-links">
+                                        <a href="https://github.com/Gui99S/pokemon_WebAPI/" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="https://gui99s.github.io/pokemon_WebAPI/" class="linkedin" target="_blank" rel="noopener"s><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="port-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay-wip"></span>
+    
+                                <div class="card-image">
+                                    <img src="img/port/projwip.png" alt="" class="card-img-wip">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                    <h4 class="port-item-title">More To Come</h4>
+                                    
+                                    <ul>
+                                        <li class="tag_html">#HTML</li>
+                                        <li class="tag_css">#CSS</li>
+                                        <li class="tag_js">#JavaScript</li>
+                                    </ul>
+                                    <p class="description">I have a bunch of ideas to eventually add here.</p>
+                                    <div class="port-links">
+                                        <a href="#" class="github" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Repository</a>&nbsp;&nbsp;<a href="#" class="linkedin" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Page</a>
+                                    </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+
+            <h1 class="sub-heading">Contact</h1>
+            <div class="divider" style="width: 98px"></div>
+            <p class="sub-paragraph">Feel free to give me any feedback.</p>
+
+            <div class="contact-row">
+
+                <div class="contact-left">
+
+
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fab fa-whatsapp" id="whatsapp"></i>
+                        </div>
+                        <div class="info">
+                            <h4>WhatsApp</h4>
+                            <p>+51 98411-2970</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fab fa-discord" id="discord"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Discord</h4>
+                            <p>GuiSdS#7670</p>
+                        </div>
+                    </div>
+
+                        <div class="icon-box">
+                        <div class="icon">
+                            <i class="fas fa-envelope" id="email"></i>
+                        </div>
+                        <div class="info">
+                            <h4>E-mail</h4>
+                            <p>guilherme99ssilva@hotmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fab fa-linkedin" id="linkedin"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Linkedin</h4>
+                            <p><a href="https://www.linkedin.com/in/guilherme-s-da-silva/" target="_blank" rel="noopener">
+                                My Linkedin
+                            </a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="footer">
+                <a href="#" class="scrollToTop"><i class="fas fa-arrow-up"></i></a>
+            </div>
+            
+        </section>
+
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typingEffect = new Typed('.auto-input', {
+            strings: ["Student", "Freelancer", "Front-End Developer"],
+            loop: true,
+            typeSpeed : 100,
+            backSpeed : 100,
+            backDelay : 2000
+        });
+        </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
