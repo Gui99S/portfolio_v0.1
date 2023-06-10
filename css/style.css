@@ -311,6 +311,34 @@ main {
     text-decoration: underline mediumseagreen;
 }
 
+#home .home-row button {
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    border: 1px solid var(--textColor);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin: 8px;
+    transition: 0.6s ease;
+}
+
+#home .home-row button:hover {
+    background: var(--textColor);
+    color: var(--darkBackgroundColor);
+}
+
+#home .home-row button a {
+    text-decoration: none;
+    color: var(--textColor);
+    transition: 0.6s ease;
+}
+
+#home .home-row button:hover a {
+    color: var(--darkBackgroundColor);
+}
+
 @media only screen and (max-width: 1050px) {
     header {
         left: -300px;
@@ -1198,7 +1226,7 @@ main {
     }
 
     #contact .contact-row .contact-left .icon-box .info p {
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
 }
