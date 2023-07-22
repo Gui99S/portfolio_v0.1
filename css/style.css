@@ -113,6 +113,7 @@ header nav ul li {
 
 header nav ul li a {
     display: inline-block;
+    user-select: none;
     text-decoration: none;
     padding: 5px 5px;
     margin: 5px 5px;
@@ -1027,6 +1028,7 @@ main {
 }
 
 #portfolio .slide-container .swiper-navBtn {
+    user-select: none;
     outline: none;
     color: var(--lightBackgroundColor);
     transition: color 0.3s ease;
@@ -1272,6 +1274,7 @@ main {
 }
 
 #footer .scrollToTop {
+    user-select: none;
     float: right;
     outline: none;
     border: none;
