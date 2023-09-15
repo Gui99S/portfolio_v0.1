@@ -113,7 +113,6 @@ header nav ul li {
 
 header nav ul li a {
     display: inline-block;
-    user-select: none;
     text-decoration: none;
     padding: 5px 5px;
     margin: 5px 5px;
@@ -175,8 +174,8 @@ header .footer p a {
     border: 2px solid var(--textColor);
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
     z-index: 999;
-    user-select: none;
     display: none;
+    user-select: none;
     transition: 0.3s;
 }
 
@@ -316,13 +315,17 @@ main {
 #home .home-row button {
     cursor: pointer;
     outline: none;
+    text-decoration: none;
     background: transparent;
     border: 1px solid var(--textColor);
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 8px;
-    margin: 8px;
+    border-radius: 50%; /* 8px */
+    color: var(--textColor);
+    text-align: center;
+    display: inline-flex;
+    width: 100px;
+    height: 95px;
+    padding: 10px;
+    margin-right: 12px;
     transition: 0.6s ease;
 }
 
@@ -331,10 +334,21 @@ main {
     color: var(--darkBackgroundColor);
 }
 
+#home .home-row button a span {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-flex;
+}
+
 #home .home-row button a {
     text-decoration: none;
     color: var(--textColor);
     transition: 0.6s ease;
+}
+
+#home .home-row button a img {
+    margin: .5px 20px .5px 20px;
+    display: inline-flex;
 }
 
 #home .home-row button:hover a {
@@ -730,8 +744,35 @@ main {
     color: #F0DB4F;
 }
 
+#skill .skill-row .skill-item:hover .icon #java {
+    color: #f89820;
+}
+
+#skill .skill-row .skill-item .icon #cplusp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    user-select: none;
+}
+
+#skill .skill-row .skill-item .icon #cplusp span {
+    font-size: 12px;
+    user-select: none;
+}
+
+#skill .skill-row .skill-item:hover .icon #cplusp {
+    color: #044F88;
+}
+
+#skill .skill-row .skill-item:hover .icon #cplusp span {
+    color: var(--lightBackgroundColor);
+}
+
+#skill .skill-row .skill-item:hover .icon #python {
+    color: #4584b6;
+}
+
 #skill .skill-row .skill-item:hover .icon #php {
-    color: #484C89;
+    color: #787CB5;
 }
 
 #skill .skill-row .skill-item:hover .icon #react {
@@ -750,8 +791,12 @@ main {
     color: #F1502F;
 }
 
-#skill .skill-row .skill-item:hover .icon #github {
+#skill .skill-row .skill-item:hover .icon #githubsk {
     color: #6e5494;
+}
+
+#skill .skill-row .skill-item:hover .icon #mysql {
+    color: #00758F;
 }
 
 #skill .skill-row .skill-item .icon #kotlin {
@@ -760,7 +805,7 @@ main {
 }
 
 #skill .skill-row .skill-item:hover .icon #kotlin {
-    color: #7F52FF;
+    color: #B125EA;
 }
 
 #asterisk {
@@ -1028,7 +1073,6 @@ main {
 }
 
 #portfolio .slide-container .swiper-navBtn {
-    user-select: none;
     outline: none;
     color: var(--lightBackgroundColor);
     transition: color 0.3s ease;
@@ -1120,7 +1164,7 @@ main {
     margin-top: 50px;
     display: flex;
     gap: 20px;
-    width: 100%;
+    width: auto;
 }
 
 #contact .contact-row .contact-left {
@@ -1187,13 +1231,14 @@ main {
     color: var(--titleColor);
     font-size: 18px;
     font-weight: 600;
+    text-decoration: 1.5px underline var(--themeColor);
+    text-underline-offset: 5px;
 }
 
 #contact .contact-row .contact-left .icon-box .info p {
     color: var(--textColor);
     font-size: 15px;
     font-weight: 500;
-    text-decoration: 1.5px overline var(--themeColor);
 }
 
 
@@ -1274,7 +1319,6 @@ main {
 }
 
 #footer .scrollToTop {
-    user-select: none;
     float: right;
     outline: none;
     border: none;
