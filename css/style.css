@@ -1031,7 +1031,8 @@ main {
 }
 
 #portfolio .slide-container .slide-content .card-wrapper .port-card .card-content .description {
-    font-size: 15px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
     text-align: center;
     text-wrap: balance;
     padding: 8px;
